@@ -18,8 +18,8 @@ use {'NoXPhasma/onehalf-vim'}
 ```
 
 ### Manual Installation
-Download the files in [vim/](./) and put them in their respective folders
-(`./colors/` and `./vim/autoload/airline/themes/`)
+Download the files and put them in their respective folders
+(`./colors/` and `./autoload/airline/themes/`)
 
 ## Usage
 Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'`, if using airline
