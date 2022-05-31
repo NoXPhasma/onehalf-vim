@@ -1,6 +1,6 @@
 # Vim Installation & Usage
 
-![screenshot: vim](../screenshots/vim.png)
+![screenshot: vim](./screenshots//vim.png)
 NeoVim + Tmux with true colors on iTerm2.
 
 ## Installation
@@ -9,14 +9,17 @@ NeoVim + Tmux with true colors on iTerm2.
 vim-plug:
 
 ```
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'NoXPhasma/onehalf-vim'
 ```
 
-The 'rtp' option is necessary as the vim theme resides in a subdirectory of the git repo.
+packer.nvim:
+```
+use {'NoXPhasma/onehalf-vim'}
+```
 
 ### Manual Installation
 Download the files in [vim/](./) and put them in their respective folders
-(`./vim/colors/` and `./vim/autoload/airline/themes/`)
+(`./colors/` and `./vim/autoload/airline/themes/`)
 
 ## Usage
 Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'`, if using airline
@@ -65,4 +68,4 @@ set -ga terminal-overrides ",*256col*:Tc"
 To test if your neovim/tmux/terminal combination supports true colors or not, use this
 [test script](https://github.com/sonph/dotfiles/blob/master/bin/truecolor.sh):
 
-![truecolors](./truecolors.png)
+![truecolors](./screenshots/truecolors.png)
