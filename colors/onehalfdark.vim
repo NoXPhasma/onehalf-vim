@@ -17,10 +17,10 @@ let g:colors_name="onehalfdark"
 let colors_name="onehalfdark"
 
 
-let s:black       = { "gui": "#282c34", "cterm": "236" }
+let s:black       = { "gui": "#353944", "cterm": "236" }
 let s:red         = { "gui": "#e06c75", "cterm": "168" }
 let s:green       = { "gui": "#98c379", "cterm": "114" }
-let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }
+let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }#353944
 let s:blue        = { "gui": "#61afef", "cterm": "75"  }
 let s:purple      = { "gui": "#c678dd", "cterm": "176" }
 let s:cyan        = { "gui": "#56b6c2", "cterm": "73"  }
@@ -30,7 +30,7 @@ let s:fg          = s:white
 let s:bg          = s:black
 
 let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
-let s:gutter_bg   = { "gui": "#282c34", "cterm": "236" }
+let s:gutter_bg   = { "gui": "#353944", "cterm": "236" }
 let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
 let s:non_text    = { "gui": "#373C45", "cterm": "239" }
 
